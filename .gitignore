@@ -1,0 +1,32 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Editor/IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Homebrew local artifacts
+*.bottle.*
+*.bottle.tar.gz
+*.bottle.json
+*.tar.gz
+*.tgz
+*.zip
+
+# Logs
+*.log
+
+# Ruby/Bundler local state
+.bundle/
+vendor/bundle/
+Gemfile.lock
+
+# Temporary files
+tmp/
+temp/
+.cache/
